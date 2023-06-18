@@ -1,0 +1,626 @@
+.index {
+    background-color: #ffe3e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #233551;
+    border: 1px none;
+    height: 4135px;
+    overflow: hidden;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .index .overlap-group {
+    height: 4169px;
+    left: 0;
+    position: absolute;
+    top: -34px;
+    width: 1280px;
+  }
+  
+  .index .rectangle {
+    background-color: #ffe3e4;
+    border-radius: 40px 40px 0px 0px;
+    height: 3632px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+  }
+  
+  .index .text-wrapper {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 423px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .text-wrapper-2 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 521px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .text-wrapper-3 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .text-wrapper-4 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 757px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .text-wrapper-5 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 881px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .text-wrapper-6 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 1019px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+  }
+  
+  
+  .index .rectangle-2 {
+    background-color: #7eb0c7;
+    border-radius: 50px;
+    height: 62px;
+    left: 73px;
+    position: absolute;
+    top: 600px;
+    width: 241px;
+  }
+  
+  .index .text-wrapper-7 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 1124px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 129px;
+  }
+  
+  .index .find-hope-healing {
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    width: 700px;
+  }
+  
+  .index .text-wrapper-8 {
+    color: #ffe3e4;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 24px;
+    left: 102px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 618px;
+    white-space: nowrap;
+    width: 186px;
+  }
+  
+  .index .ellipse {
+    background-color: #7eb0c7;
+    border-radius: 12px;
+    height: 24px;
+    left: 734px;
+    position: absolute;
+    top: 375px;
+    width: 24px;
+  }
+  
+  .index .ellipse-2 {
+    background-color: #ff847f;
+    border-radius: 5.5px;
+    height: 11px;
+    left: 797px;
+    position: absolute;
+    top: 277px;
+    width: 11px;
+  }
+  
+  .index .ellipse-3 {
+    background-color: #7eb0c7;
+    border-radius: 3px;
+    height: 6px;
+    left: 746px;
+    position: absolute;
+    top: 3187px;
+    width: 6px;
+  }
+  
+  .index .ellipse-4 {
+    background-color: #ff847f;
+    border-radius: 3px;
+    height: 6px;
+    left: 768px;
+    position: absolute;
+    top: 644px;
+    width: 6px;
+  }
+  
+  .index .img {
+    height: 420px;
+    left: 495px;
+    position: absolute;
+    top: 781px;
+    width: 785px;
+  }
+  
+  .index .rectangle-3 {
+    height: 420px;
+    left: 0;
+    position: absolute;
+    top: 781px;
+    width: 1280px;
+  }
+  
+  .index .key-features {
+    height: 37px;
+    left: 549px;
+    position: absolute;
+    top: 875px;
+    width: 249px;
+  }
+  
+  .index .what-is-mental {
+    height: 31px;
+    left: 754px;
+    position: absolute;
+    top: 1441px;
+    width: 459px;
+  }
+  
+  .index .emphasize-the-value {
+    height: 87px;
+    left: 748px;
+    position: absolute;
+    top: 2840px;
+    width: 450px;
+  }
+  
+  .index .importance-of-mental {
+    height: 87px;
+    left: 82px;
+    position: absolute;
+    top: 2103px;
+    width: 416px;
+  }
+  
+  .index .ellipse-5 {
+    height: 133px;
+    left: 443px;
+    object-fit: cover;
+    position: absolute;
+    top: 937px;
+    width: 134px;
+  }
+  
+  .index .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1122px;
+  }
+  
+  .index .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 472px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1124px;
+  }
+  
+  .index .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 745px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1128px;
+  }
+  
+  .index .text-wrapper-12 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    height: 21px;
+    left: 1092px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1133px;
+  }
+  
+  .index .mental-health-is {
+    color: #16161699;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 176px;
+    left: 754px;
+    letter-spacing: 0;
+    line-height: 35.3px;
+    position: absolute;
+    text-align: justify;
+    top: 1514px;
+    width: 455px;
+  }
+  
+  .index .mental-stress-is {
+    color: #16161699;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 350px;
+    left: 745px;
+    letter-spacing: 0;
+    line-height: 35.3px;
+    position: absolute;
+    text-align: justify;
+    top: 2977px;
+    width: 455px;
+  }
+  
+  .index .it-is-also-important {
+    color: #16161699;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 455px;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: 35.3px;
+    position: absolute;
+    text-align: justify;
+    top: 2221px;
+    width: 489px;
+  }
+  
+  .index .about-bubble {
+    height: 623px;
+    left: 26px;
+    object-fit: cover;
+    position: absolute;
+    top: 1356px;
+    width: 700px;
+  }
+  
+  .index .about-s-bubble {
+    height: 580px;
+    left: 8px;
+    object-fit: cover;
+    position: absolute;
+    top: 2823px;
+    width: 652px;
+  }
+  
+  .index .about {
+    height: 578px;
+    left: 575px;
+    object-fit: cover;
+    position: absolute;
+    top: 2161px;
+    width: 665px;
+  }
+  
+  .index .about-lines {
+    height: 667px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 1356px;
+    width: 595px;
+  }
+  
+  .index .rectangle-4 {
+    height: 638px;
+    left: 0;
+    position: absolute;
+    top: 3531px;
+    width: 1280px;
+  }
+  
+  .index .rectangle-5 {
+    height: 654px;
+    left: 0;
+    position: absolute;
+    top: 3515px;
+    width: 1280px;
+  }
+  
+  .index .element-copyrights-by {
+    color: #00000099;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 26px;
+    left: 467px;
+    letter-spacing: 0;
+    line-height: 26.5px;
+    position: absolute;
+    text-align: justify;
+    top: 4030px;
+    white-space: nowrap;
+  }
+  
+  .index .span {
+    color: #00000099;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 26.5px;
+  }
+  
+  .index .text-wrapper-13 {
+    font-weight: 700;
+  }
+  
+  .index .text-wrapper-14 {
+    color: #00000099;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 26.5px;
+  }
+  
+  .index .line {
+    height: 1px;
+    left: 83px;
+    object-fit: cover;
+    position: absolute;
+    top: 3998px;
+    width: 1117px;
+  }
+  
+  .index .logo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 82px;
+    position: absolute;
+    top: 3947px;
+    width: 168px;
+  }
+  
+  .index .text-wrapper-15 {
+    color: #233551;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .index .copyright-all-rights {
+    height: 18px;
+    left: 437px;
+    position: absolute;
+    top: 4035px;
+    width: 18px;
+  }
+  
+  .index .div-wrapper {
+    height: 36px;
+    left: 137px;
+    position: absolute;
+    top: 124px;
+    width: 170px;
+  }
+  
+  .index .git-hub {
+    height: 86px;
+    left: 114px;
+    position: absolute;
+    top: 3777px;
+    width: 106px;
+  }
+  
+  .index .linked-in {
+    height: 86px;
+    left: 1027px;
+    position: absolute;
+    top: 3777px;
+    width: 106px;
+  }
+  
+  .index .twitter {
+    height: 51px;
+    left: 426px;
+    position: absolute;
+    top: 3792px;
+    width: 64px;
+  }
+
+  .index .instagram {
+    height: 55px;
+    left: 738px;
+    position: absolute;
+    top: 3792px;
+    width: 64px;
+  }
+  
+  .index .join-us {
+    height: 31px;
+    left: 562px;
+    position: absolute;
+    top: 3644px;
+    width: 142px;
+  }
+  
+  .index .ellipse-7 {
+    height: 133px;
+    left: 758px;
+    object-fit: cover;
+    position: absolute;
+    top: 937px;
+    width: 133px;
+  }
+  
+  .index .ellipse-8 {
+    height: 133px;
+    left: 1044px;
+    object-fit: cover;
+    position: absolute;
+    top: 937px;
+    width: 133px;
+  }
+  
+  .index .ellipse-9 {
+    height: 133px;
+    left: 116px;
+    object-fit: cover;
+    position: absolute;
+    top: 937px;
+    width: 133px;
+  }
+  
+  .index .rectangle-8 {
+    height: 588px;
+    left: 636px;
+    object-fit: cover;
+    position: absolute;
+    top: 2102px;
+    width: 588px;
+  }
+  
+  .index .https-lottiefiles {
+    height: 500px;
+    left: 48px;
+    object-fit: cover;
+    position: absolute;
+    top: 1418px;
+    width: 500px;
+  }
+  
+  .index .https-lottiefiles-2 {
+    height: 580px;
+    left: 34px;
+    object-fit: cover;
+    position: absolute;
+    top: 2771px;
+    width: 580px;
+  }
+  
+  .index .https-lottiefiles-3 {
+    height: 600px;
+    left: 675px;
+    object-fit: cover;
+    position: absolute;
+    top: 40px;
+    width: 600px;
+  }
+  
+  .index .rectangle-9 {
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #233551;
+    border-radius: 50px;
+    height: 28px;
+    left: 1097px;
+    position: absolute;
+    top: -1278px;
+    width: 88px;
+  }
+  
+  .index .contact-globe {
+    height: 654px;
+    left: 344px;
+    position: absolute;
+    top: 5376px;
+    width: 698px;
+  }
+  
+  .index .iteck-google-chrome {
+    height: 720px;
+    left: 1465px;
+    object-fit: cover;
+    position: absolute;
+    top: 1534px;
+    width: 1366px;
+  }
+  
