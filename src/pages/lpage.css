@@ -1,626 +1,502 @@
-.index {
-    background-color: #ffe3e4;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+.mindshift {
+  background-color: #233551;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
   }
-  
-  .index .div {
-    background-color: #233551;
-    border: 1px none;
-    height: 4135px;
-    overflow: hidden;
-    position: relative;
-    width: 1280px;
+
+  .mindshift .overlap-group-wrapper { 
+  background-color: #233551;
+  border: 1px none;
+  height: 3723px;
+  width: 1283px;
   }
-  
-  .index .overlap-group {
-    height: 4169px;
-    left: 0;
-    position: absolute;
-    top: -34px;
-    width: 1280px;
+
+ .mindshift .overlap-group {
+  height: 3722px;
+  position: relative;
+  top: 2px;
   }
-  
-  .index .rectangle {
-    background-color: #ffe3e4;
-    border-radius: 40px 40px 0px 0px;
-    height: 3632px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1280px;
+
+  .mindshift .outerbox {
+  height: 3448px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
   }
-  
-  .index .text-wrapper {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 423px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
+
+  .mindshift .startassessment-btn {
+  background-color: #7eb8c7;
+  border-radius: 50px;
+  height: 62px;
+  left: 82px;
+  position: absolute;
+  top: 462px;
+  width: 241px;
+  color: #ffe3e4;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
   }
-  
-  .index .text-wrapper-2 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 521px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
+
+  .mindshift .tagline {
+  height: 302px;
+  left: 83px;
+  position: absolute;
+  top: 110px;
+  width: 577px;
   }
-  
-  .index .text-wrapper-3 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 646px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
-  }
-  
-  .index .text-wrapper-4 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 757px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
-  }
-  
-  .index .text-wrapper-5 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 881px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
-  }
-  
-  .index .text-wrapper-6 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 1019px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 128px;
-  }
-  
-  
-  .index .rectangle-2 {
-    background-color: #7eb0c7;
-    border-radius: 50px;
-    height: 62px;
-    left: 73px;
-    position: absolute;
-    top: 600px;
-    width: 241px;
-  }
-  
-  .index .text-wrapper-7 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 1124px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 129px;
-  }
-  
-  .index .find-hope-healing {
-    height: 300px;
-    position: absolute;
-    top: 200px;
-    width: 700px;
-  }
-  
-  .index .text-wrapper-8 {
-    color: #ffe3e4;
-    font-family: "Inter", Helvetica;
-    font-size: 20px;
-    font-weight: 500;
-    height: 24px;
-    left: 102px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 618px;
-    white-space: nowrap;
-    width: 186px;
-  }
-  
-  .index .ellipse {
-    background-color: #7eb0c7;
+
+    .mindshift .circle {
+    background-color: #7eb8c7;
     border-radius: 12px;
     height: 24px;
-    left: 734px;
+    left: 738px;
     position: absolute;
-    top: 375px;
+    top: 218px;
     width: 24px;
-  }
-  
-  .index .ellipse-2 {
+    }
+
+    .mindshift .div {
     background-color: #ff847f;
     border-radius: 5.5px;
     height: 11px;
-    left: 797px;
+    left: 801px;
     position: absolute;
-    top: 277px;
+    top: 120px;
     width: 11px;
-  }
-  
-  .index .ellipse-3 {
-    background-color: #7eb0c7;
+    }
+    .mindshift .circle-2 {
+    background-color:#7eb0c7;
     border-radius: 3px;
     height: 6px;
-    left: 746px;
+    left: 750px;
     position: absolute;
-    top: 3187px;
+    top: 2954px;
     width: 6px;
-  }
-  
-  .index .ellipse-4 {
-    background-color: #ff847f;
+    }
+
+    .mindshift .circle-3 {
+    background-color:  #ff847f;
     border-radius: 3px;
     height: 6px;
-    left: 768px;
+    left: 772px;
     position: absolute;
-    top: 644px;
+    top: 486px;
     width: 6px;
-  }
-  
-  .index .img {
+    }
+
+    .mindshift .greenwavecontainer {
     height: 420px;
-    left: 495px;
+    left: 498px;
     position: absolute;
-    top: 781px;
+    top: 624px;
     width: 785px;
-  }
-  
-  .index .rectangle-3 {
+    }
+
+    .mindshift .whitewavecontainer {
     height: 420px;
-    left: 0;
+    left: 2px;
     position: absolute;
-    top: 781px;
-    width: 1280px;
-  }
-  
-  .index .key-features {
-    height: 37px;
-    left: 549px;
-    position: absolute;
-    top: 875px;
-    width: 249px;
-  }
-  
-  .index .what-is-mental {
-    height: 31px;
-    left: 754px;
-    position: absolute;
-    top: 1441px;
-    width: 459px;
-  }
-  
-  .index .emphasize-the-value {
-    height: 87px;
-    left: 748px;
-    position: absolute;
-    top: 2840px;
-    width: 450px;
-  }
-  
-  .index .importance-of-mental {
-    height: 87px;
-    left: 82px;
-    position: absolute;
-    top: 2103px;
-    width: 416px;
-  }
-  
-  .index .ellipse-5 {
-    height: 133px;
-    left: 443px;
-    object-fit: cover;
-    position: absolute;
-    top: 937px;
-    width: 134px;
-  }
-  
-  .index .text-wrapper-9 {
+    top: 624px;
+    width: 1281px;
+    }
+
+    .mindshift .key-features {
+      height: 37px;
+      left: 552px;
+      position: absolute;
+      top: 717px;
+      width: 249px;
+    }
+     
+    .mindshift .mental-health-title {
+      height: 31px;
+      left: 758px;
+      position: absolute;
+      top: 1208px;
+      width: 459px;
+    }
+
+    .mindshift .positive-thoughts { 
+      height: 87px; 
+      left: 752px;
+      position: absolute;
+      top: 2607px;
+      width: 450px;
+    }
+
+    .mindshift .importance-title {
+      height: 87px;
+      left: 84px;
+      position: absolute;
+      top: 1869px;
+      width: 416px;
+    }
+
+    .mindshift .text-wrapper-2 {
+      color: #000000;
+      font-family: "Inter", Helvetica;
+      font-size: 17px;
+      font-weight: 700;
+      height: 21px;
+      left: 127px;
+      letter-spacing: 0; 
+      line-height: normal;
+      position: absolute;
+      text-align: center; 
+      top: 964px;
+    }
+
+    .mindshift .text-wrapper-3 {
     color: #000000;
-    font-family: "Inter", Helvetica;
+    font-family: "Inter", Helvetica; 
     font-size: 17px;
     font-weight: 700;
     height: 21px;
-    left: 125px;
+    left: 475px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 1122px;
+    top: 966px;
+    }
+
+  .mindshift .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter", Helvetica; 
+  font-size: 17px;
+  font-weight: 700; 
+  height: 21px;
+  left: 749px; 
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 970px;
   }
-  
-  .index .text-wrapper-10 {
-    color: #000000;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 472px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 1124px;
+
+  .mindshift .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  height: 21px;
+  left: 1097px;
+  letter-spacing: 0; 
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 976px;
   }
-  
-  .index .text-wrapper-11 {
-    color: #000000;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 745px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 1128px;
+
+  .mindshift .mental-health {
+  color: #16161699;
+  font-family: "Inter", Helvetica; 
+  font-size: 20px;
+  font-weight: 500; 
+  height: 176px; 
+  left: 758px; 
+  letter-spacing: 0;
+  line-height: 35.3px; 
+  position: absolute; 
+  text-align: justify; 
+  top: 1380px;
+  width: 455px;
   }
-  
-  .index .text-wrapper-12 {
-    color: #000000;
-    font-family: "Inter", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    height: 21px;
-    left: 1092px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 1133px;
-  }
-  
-  .index .mental-health-is {
+
+  .mindshift .p {
     color: #16161699;
     font-family: "Inter", Helvetica;
     font-size: 20px;
-    font-weight: 500;
-    height: 176px;
-    left: 754px;
+    font-weight: 500; 
+    height: 350px; 
+    left: 749px;
     letter-spacing: 0;
     line-height: 35.3px;
     position: absolute;
+    top: 2744px;
     text-align: justify;
-    top: 1514px;
     width: 455px;
-  }
-  
-  .index .mental-stress-is {
-    color: #16161699;
-    font-family: "Inter", Helvetica;
-    font-size: 20px;
-    font-weight: 500;
-    height: 350px;
-    left: 745px;
-    letter-spacing: 0;
-    line-height: 35.3px;
-    position: absolute;
-    text-align: justify;
-    top: 2977px;
-    width: 455px;
-  }
-  
-  .index .it-is-also-important {
+    }
+
+    .mindshift .importance {
     color: #16161699;
     font-family: "Inter", Helvetica;
     font-size: 20px;
     font-weight: 500;
     height: 455px;
-    left: 81px;
-    letter-spacing: 0;
-    line-height: 35.3px;
-    position: absolute;
-    text-align: justify;
-    top: 2221px;
-    width: 489px;
-  }
-  
-  .index .about-bubble {
-    height: 623px;
-    left: 26px;
-    object-fit: cover;
-    position: absolute;
-    top: 1356px;
-    width: 700px;
-  }
-  
-  .index .about-s-bubble {
-    height: 580px;
-    left: 8px;
-    object-fit: cover;
-    position: absolute;
-    top: 2823px;
-    width: 652px;
-  }
-  
-  .index .about {
-    height: 578px;
-    left: 575px;
-    object-fit: cover;
-    position: absolute;
-    top: 2161px;
-    width: 665px;
-  }
-  
-  .index .about-lines {
-    height: 667px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 1356px;
-    width: 595px;
-  }
-  
-  .index .rectangle-4 {
-    height: 638px;
-    left: 0;
-    position: absolute;
-    top: 3531px;
-    width: 1280px;
-  }
-  
-  .index .rectangle-5 {
-    height: 654px;
-    left: 0;
-    position: absolute;
-    top: 3515px;
-    width: 1280px;
-  }
-  
-  .index .element-copyrights-by {
-    color: #00000099;
-    font-family: "Inter", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    height: 26px;
-    left: 467px;
-    letter-spacing: 0;
-    line-height: 26.5px;
-    position: absolute;
-    text-align: justify;
-    top: 4030px;
-    white-space: nowrap;
-  }
-  
-  .index .span {
-    color: #00000099;
-    font-family: "Inter", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 26.5px;
-  }
-  
-  .index .text-wrapper-13 {
-    font-weight: 700;
-  }
-  
-  .index .text-wrapper-14 {
-    color: #00000099;
-    font-family: "Inter", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 26.5px;
-  }
-  
-  .index .line {
-    height: 1px;
     left: 83px;
+    letter-spacing: 0;
+    line-height: 35.3px; 
+    position: absolute; 
+    text-align: justify; 
+    top: 1988px;
+    width: 489px;
+    }
+
+   .mindshift .bubblesmentalhealth {
+    height: 623px;
+    left: 28px;
     object-fit: cover;
     position: absolute;
-    top: 3998px;
+    top: 1122px;
+    width: 700px;
+    }
+
+    .mindshift .img {
+    height: 580px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute; 
+    top: 2590px; 
+    width: 652px;
+    }
+
+    .mindshift .bubblesimportance {
+    height: 578px;
+    left: 578px;
+    object-fit: cover;
+    position: absolute;
+    top: 1928px; 
+    width: 665px;
+    }
+
+    .mindshift .img-2 {
+    height: 667px;
+    left: 2px;
+    object-fit: cover;
+    position: absolute; 
+    top: 1118px;
+    width: 595px;
+    }
+
+    .mindshift .backlinesimportance {
+      height: 667px;
+      left: 670px;
+      object-fit: cover;
+      position: absolute; 
+      top: 1854px; 
+      width: 595px;
+    }
+
+    .mindshift .backlinepositive {
+      height: 739px;
+      left: 0;
+      object-fit: cover;
+      position: absolute; 
+      top: 2478px;
+      width: 595px;
+    }
+
+    .mindshift .greenfootercontainer {
+      height: 480px;
+      left: 2px;
+      position: absolute;
+      top: 3241px;
+      width: 1280px;
+    }
+
+    .mindshift .whitefootercontainer {
+      height: 497px;
+      left: 2px;
+      position: absolute;
+      top: 3224px;
+      width: 1280px;
+    }
+
+    .mindshift .copyright {
+    color: #00000099; 
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400; 
+    height: 26px;
+    left: 471px;
+    letter-spacing: 0;
+    line-height: 26.5px;
+    position: absolute;
+    text-align: justify;
+    top: 3596px;
+    white-space: nowrap;
+    }
+
+    .mindshift .span {
+      color: #00000099;
+      font-family: "Inter", Helvetica;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 26.5px;
+    }
+
+    .mindshift .text-wrapper-6 { 
+      font-weight: 700;
+    }
+
+    .mindshift.text-wrapper-7 { 
+      color: #00000099;
+      font-family: "Inter", Helvetica;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 26.5px;
+    }
+
+    .mindshift .footerline {
+    height: 1px;
+    left: 78px;
+    object-fit: cover;
+    position: absolute;
+    top: 3568px;
     width: 1117px;
-  }
-  
-  .index .logo {
+    }
+
+   .mindshift .logo {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    left: 82px;
+    left: 83px;
     position: absolute;
-    top: 3947px;
+    top: 3504px;
     width: 168px;
-  }
-  
-  .index .text-wrapper-15 {
-    color: #233551;
-    font-family: "Inter", Helvetica;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .index .copyright-all-rights {
-    height: 18px;
-    left: 437px;
-    position: absolute;
-    top: 4035px;
-    width: 18px;
-  }
-  
-  .index .div-wrapper {
-    height: 36px;
-    left: 137px;
-    position: absolute;
-    top: 124px;
-    width: 170px;
-  }
-  
-  .index .git-hub {
-    height: 86px;
-    left: 114px;
-    position: absolute;
-    top: 3777px;
-    width: 106px;
-  }
-  
-  .index .linked-in {
-    height: 86px;
-    left: 1027px;
-    position: absolute;
-    top: 3777px;
-    width: 106px;
-  }
-  
-  .index .twitter {
-    height: 51px;
-    left: 426px;
-    position: absolute;
-    top: 3792px;
-    width: 64px;
+   }
+
+  .mindshift .h-1 {
+  color: #233551;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
   }
 
-  .index .instagram {
-    height: 55px;
-    left: 738px;
-    position: absolute;
-    top: 3792px;
-    width: 64px;
+  .mindshift .copyright-2 {
+  height: 18px;
+  left: 441px;
+  position: absolute;
+  top: 3602px;
+  width: 18px;
   }
-  
-  .index .join-us {
-    height: 31px;
-    left: 562px;
+
+  .mindshift .git-hub { 
+    height: 86px;
+    left: 315px;
     position: absolute;
-    top: 3644px;
+    top: 3392px;
+    width: 106px;
+  }
+
+  .mindshift .linked-in {
+  height: 86px;
+  left: 691px;
+  position: absolute;
+  top: 3392px;
+  width: 106px;
+  }
+
+  .mindshift .twitter {
+  height: 51px;
+  left: 540px;
+  position: absolute;
+  top: 3410px;
+  width: 64px;
+  }
+
+  .mindshift .instagram {
+    height: 76px;
+    left: 883px;
+    object-fit: cover;
+    position: absolute;
+    top: 3398px;
+    width: 80px;
+  }
+
+  .mindshift .join-us {
+    height: 31px; 
+    left: 597px;
+    position: absolute;
+    top: 3326px;
     width: 142px;
+  } 
+    
+  .mindshift .games {
+    height: 133px; 
+    left: 446px;
+    object-fit: cover;
+    position: absolute; 
+    top: 780px;
+    width: 134px;
   }
-  
-  .index .ellipse-7 {
+
+  .mindshift .community{
     height: 133px;
-    left: 758px;
+    left: 762px;
     object-fit: cover;
     position: absolute;
-    top: 937px;
+    top: 780px;
     width: 133px;
   }
-  
-  .index .ellipse-8 {
+
+  .mindshift .blog{
     height: 133px;
-    left: 1044px;
+    left: 1048px;
     object-fit: cover;
     position: absolute;
-    top: 937px;
+    top: 780px;
     width: 133px;
   }
-  
-  .index .ellipse-9 {
+
+  .mindshift .calendar{
     height: 133px;
-    left: 116px;
+    left: 118px;
     object-fit: cover;
     position: absolute;
-    top: 937px;
+    top: 780px;
     width: 133px;
   }
-  
-  .index .rectangle-8 {
-    height: 588px;
-    left: 636px;
-    object-fit: cover;
-    position: absolute;
-    top: 2102px;
-    width: 588px;
-  }
-  
-  .index .https-lottiefiles {
+
+  .mindshift .mentalhealth{
     height: 500px;
-    left: 48px;
+    left: 50px;
     object-fit: cover;
     position: absolute;
-    top: 1418px;
-    width: 500px;
+    top: 1184px;
+    width: 500px; 
   }
-  
-  .index .https-lottiefiles-2 {
-    height: 580px;
-    left: 34px;
+
+  .mindshift .positivethought{
+    height: 500px;
+    left: 78px;
     object-fit: cover;
     position: absolute;
-    top: 2771px;
-    width: 580px;
+    top: 2598px;
+    width: 500px; 
   }
-  
-  .index .https-lottiefiles-3 {
+
+  .mindshift .importance-2{
+    height: 500px;
+    left: 740px;
+    object-fit: cover;
+    position: absolute;
+    top: 1904px;
+    width: 500px; 
+  }
+
+  .mindshift .meditation{
     height: 600px;
-    left: 675px;
+    left: 644px;
     object-fit: cover;
     position: absolute;
-    top: 40px;
-    width: 600px;
+    top: 30px;
+    width: 600px; 
   }
-  
-  .index .rectangle-9 {
-    background-color: #d9d9d9;
-    border: 1px solid;
-    border-color: #233551;
-    border-radius: 50px;
-    height: 28px;
-    left: 1097px;
-    position: absolute;
-    top: -1278px;
-    width: 88px;
-  }
-  
-  .index .contact-globe {
-    height: 654px;
-    left: 344px;
-    position: absolute;
-    top: 5376px;
-    width: 698px;
-  }
-  
-  .index .iteck-google-chrome {
-    height: 720px;
-    left: 1465px;
-    object-fit: cover;
-    position: absolute;
-    top: 1534px;
-    width: 1366px;
-  }
-  
